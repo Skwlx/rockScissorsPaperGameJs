@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(95, 105, 119);
+    font-family: 'Baloo Bhai', cursive;
+}
+.title{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.score{
+    width: 10%;
+    height: 5%;
+    background: white;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.msg{
+    width: 20%;
+    height: 10%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    background: rgb(192, 200, 211);
+    border: 1px solid black;
+}
+.choices{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    line-height: 100px;
+    background: rgb(186, 194, 209);
+    transition: background 300ms ease-in;
+}
+.circle:hover{
+    background:rgb(171, 173, 178);
+    cursor: pointer;
+}
